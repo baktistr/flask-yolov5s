@@ -14,6 +14,8 @@ torchvision>=0.8.1
 tqdm>=4.64.0
 seaborn>=0.11.0
 pandas
+gunicorn
+jinja2
 
 # Extras --------------------------------------
 ipython  # interactive notebook

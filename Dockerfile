@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
-CMD ["python", "restapi.py", "--port=5000"]
+CMD gunicorn webapp:app
