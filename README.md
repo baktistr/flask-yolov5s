@@ -8,18 +8,14 @@ https://yolov5s-flask.herokuapp.com/
 
 ## Web app
 
-Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser. Run:
-
-`$ python3 webapp.py --port 5000`
-
-then visit http://localhost:5000/ in your browser:
+Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser
 
 <p align="center">
-<img src="https://github.com/baktistr/yolov5-flask/blob/master/docs/screenshoot1.png" width="450">
+<img src="https://raw.githubusercontent.com/baktistr/flask-yolov5s/master/docs/screenshoot1.png" width="450">
 </p>
-
+<br>
 <p align="center">
-<img src="https://github.com/baktistr/yolov5-flask/blob/master/docs/screenshoot2.png" width="450">
+<img src="https://raw.githubusercontent.com/baktistr/flask-yolov5s/master/docs/screenshoot2.png" width="450">
 </p>
 
 ## Run locally
