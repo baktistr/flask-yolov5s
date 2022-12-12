@@ -28,10 +28,10 @@ def predict():
 
         img_bytes = file.read()
         img = Image.open(io.BytesIO(img_bytes))
-        results = model([img])
 
-        results.render()  # updates results.imgs with boxes and labels
-        results.save(save_dir="static/images")
+        results = model(img)  # inference
+        results.render()  # updates results.ims with boxes and labels
+        Image.fromarray(results.ims[0]).save("static/images/image0.jpg")
         return redirect("static/images/image0.jpg")
 
     return render_template("index.html")
